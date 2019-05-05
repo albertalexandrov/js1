@@ -149,7 +149,7 @@ window.addEventListener('DOMContentLoaded', function() {
                 }
             });
             
-            let inputs = form1.getElementsByTagName('input');
+            let inputs = form.getElementsByTagName('input');
             for (let item of inputs) {
                 item.value = '';
             }
